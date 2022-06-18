@@ -1,0 +1,110 @@
+:root {
+    --clr-blue: #c3d9e0;
+    --clr-blue-light: #b5d6ee;
+    --clr-blue-dark: #508ea1;
+    --clr-blue-darker: #387588;
+    --clr-gray: #dee6ee;
+    --clr-gray-light: #f7f5f5;
+}
+
+body {
+    min-height: 100vh;
+    min-height: -webkit-fill-available;
+}
+
+html {
+    height: -webkit-fill-available;
+}
+
+main {
+    height: 100vh;
+    height: -webkit-fill-available;
+    max-height: 100vh;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+body {
+    font-size: .875rem;
+    background-color: var(--clr-gray-light);
+}
+
+.sidebar {
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 100;
+    box-shadow: inset -1px 0 0 rgba(0, 0, 0, .1);
+    background-color: var(--clr-gray);
+}
+
+.sidebar-header {
+    font-weight: bolder;
+}
+
+.sidebar .disabled {
+    color: rgb(100, 100, 100);
+}
+
+.card-header {
+    background-color: transparent;
+}
+
+.card-header .btn {
+    margin-right: 2px;
+    float: right;
+}
+
+.card-header .btn-add {
+    background-color: var(--clr-blue-dark);
+    color: var(--clr-gray-light);
+}
+
+.card-header .btn-add:hover,
+.card-header .btn-add:focus {
+    border-color: var(--clr-blue-darker);
+    background-color: var(--clr-blue-darker);
+    color: var(--clr-gray-light);
+}
+
+.card-header .btn-edit {
+    background-color: var(--clr-blue-dark);
+    color: var(--clr-gray-light);
+}
+
+.card-header .btn-edit:hover,
+.card-header .btn-edit:focus {
+    border-color: var(--clr-blue-darker);
+    background-color: var(--clr-blue-darker);
+    color: var(--clr-gray-light);
+}
+
+.dropdown-toggle {
+    outline: 0;
+}
+
+.btn-link-custom {
+    text-decoration: underline;
+}
+
+.btn-link-custom:hover,
+.btn-link-custom:focus {
+    border-color: var(--clr-blue);
+    background-color: var(--clr-blue);
+}
+
+.btn-toggle:hover,
+.btn-toggle:focus {
+    color: rgba(0, 0, 0, 0.85);
+    background-color: var(--clr-blue);
+}
+
+.breadcrumb-item>a {
+    color: var(--clr-blue-darker);
+}
+
+.scrollarea {
+    overflow-y: auto;
+}
