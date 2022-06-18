@@ -29,8 +29,8 @@ Link Project:
 pokobestore.000webhostapp.com
 
 
+
 ID & Password Default:
 
-ID: admin
-
-PW: admin
+- ID: admin
+- PW: admin
