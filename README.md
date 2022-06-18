@@ -15,7 +15,9 @@ Contributor :
 Kelompok 7's work divisions:
 
 M. Farhan Fadhillah Handle:
+- UI
 - 
 
-Ade Putra Maghribi Handle:
+Riyo Pratama J:
+- Error Handling
 - 
