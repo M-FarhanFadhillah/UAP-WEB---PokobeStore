@@ -15,12 +15,18 @@ Contributor :
 Kelompok 7's work divisions:
 
 M. Farhan Fadhillah Handle:
-- UI
-- 
+- Menentukan Ide Project
+- Frontend Dengan Bootstrap & CSS
+- Mendesign User Interface
+- Mengkode fitur CRUD dengan PHP
+- Backend dengan 000webhosting
 
 Riyo Pratama J:
+- Menentukan Ide Project
 - Error Handling
-- 
+- Mengkode fitur CRUD dengan PHP
+- Membuat database
+- Menyambungkan UI ke database
 
 -------------------------------------------
 
